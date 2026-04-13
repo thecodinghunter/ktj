@@ -1,0 +1,37 @@
+[
+  {
+    "id": "rann-utsav-tour",
+    "title": "Special Rann Utsav Tour Of Kutch",
+    "duration": "3 Nights & 4 Days",
+    "price": 14000,
+    "priceType": "Per Person",
+    "badge": "All Inclusive Best Deal Prize",
+    "description": "Experience the spectacular beauty of the White Rann during the famous Rann Utsav festival. Includes all meals, accommodation, and guided sightseeing.",
+    "pickupDrop": "From Bhuj City/Station Pick-Up To Bhuj City/Station Drop",
+    "highlights": [
+      "Kutch White Rann",
+      "Rann Utsav Festival",
+      "Dholavira Archaeological Site",
+      "Road to Heaven",
+      "Kalo Dungar Mountain",
+      "Mandavi Beach",
+      "Bhuj Heritage Sites",
+      "Full Moon Night Experience (Special Dates)"
+    ],
+    "includes": [
+      "Hotel & Resort Accommodation",
+      "A/C Vehicle Transportation",
+      "Pick-up & Drop Service",
+      "Sightseeing Tours",
+      "Dinner & Breakfast (All Days)",
+      "White Rann Permits",
+      "Water Bottle (1 Liter Per Day)",
+      "24 Hours Help Desk Service"
+    ],
+    "sharingOptions": [
+      { "type": "Twin Sharing", "price": 14000 },
+      { "type": "Triple Sharing", "price": 13000 }
+    ],
+    "link": "/itinerary/rann-utsav-tour"
+  }
+]
