@@ -16,7 +16,7 @@ const values = [
     icon: MapPinned,
     title: "Local Expertise",
     description:
-      "Deep knowledge of Kutch and Gujarat's hidden gems, culture, and traditions passed down through generations.",
+      "Deep knowledge of Gujarat's hidden gems, culture, and traditions passed down through generations.",
   },
   {
     icon: Shield,
@@ -49,10 +49,10 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us | Kutch Jannat Tours And Travels</title>
+        <title>About Us | All Gujarat Travels</title>
         <meta
           name="description"
-          content="Learn about Kutch Jannat Tours And Travels, a premium taxi and tours service based in Bhuj, Kutch."
+          content="Learn about All Gujarat Travels, a premium taxi and tours service providing one way and round trips across all over Gujarat."
         />
       </Helmet>
       <Layout>
@@ -63,7 +63,7 @@ const About = () => {
               About Us
             </h1>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-              Your trusted local travel partner for authentic Kutch and Gujarat experiences
+              Your trusted travel partner for authentic Gujarat experiences
             </p>
           </div>
         </section>
@@ -77,14 +77,14 @@ const About = () => {
                   Our Story
                 </span>
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-                  Rooted in Kutch, Committed to Excellence
+                  Rooted in Excellence, Committed to Your Journey
                 </h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Kutch Jannat Tours And Travels was born from a deep love for Kutch and a desire to
-                    share its magic with travelers from around the world. As locals who have grown
-                    up in this beautiful region, we understand every corner, every tradition, and
-                    every hidden gem that makes Kutch special.
+                    All Gujarat Travels was born from a passion for travel and a desire to
+                    share the beauty of Gujarat with travelers from around the world. With roots
+                    in this vibrant state, we understand every corner, every tradition, and
+                    every hidden gem that makes Gujarat special.
                   </p>
                   <p>
                     We specialize in local rides, airport transfers, outstation trips, family
@@ -103,15 +103,15 @@ const About = () => {
               <div className="bg-secondary rounded-2xl p-8">
                 <div className="text-center mb-8">
                   <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-3xl font-bold text-primary-foreground">KJ</span>
+                    <span className="text-3xl font-bold text-primary-foreground">AG</span>
                   </div>
-                  <h3 className="text-xl font-bold text-foreground">Kutch Jannat Tours And Travels</h3>
+                  <h3 className="text-xl font-bold text-foreground">All Gujarat Travels</h3>
                   <p className="text-muted-foreground">Premium Taxi and Tours Service</p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
-                    <span className="text-muted-foreground">Bhuj-based service on Airport Road</span>
+                    <span className="text-muted-foreground">Premium service across all major cities</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
@@ -119,7 +119,7 @@ const About = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
-                    <span className="text-muted-foreground">Coverage across all of Kutch</span>
+                    <span className="text-muted-foreground">Coverage across all of Gujarat</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
@@ -180,14 +180,14 @@ const About = () => {
               booking support.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <a href="tel:+919726126216">
+              <a href="tel:+919726126217">
                 <Button
                   variant="heroOutline"
                   size="lg"
                   className="gap-2 border-primary-foreground/30"
                 >
                   <Phone className="h-5 w-5" />
-                  +91 97261 26216
+                  +91 97261 26217
                 </Button>
               </a>
               <a

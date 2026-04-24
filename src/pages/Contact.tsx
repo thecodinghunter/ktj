@@ -7,10 +7,10 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us | Kutch Jannat Tours And Travels</title>
+        <title>Contact Us | All Gujarat Travels</title>
         <meta
           name="description"
-          content="Contact Kutch Jannat Tours And Travels for local rides, airport transfers, outstation trips, and group travel across Kutch."
+          content="Contact All Gujarat Travels for one way trips, airport transfers, round trips, and outstation travel across all of Gujarat."
         />
       </Helmet>
       <Layout>
@@ -21,7 +21,7 @@ const Contact = () => {
               Contact Us
             </h1>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-              Reach us for booking, fare inquiry, and travel planning across Kutch
+              Reach us for booking, fare inquiry, and travel planning across Gujarat
             </p>
           </div>
         </section>
@@ -38,10 +38,9 @@ const Contact = () => {
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
                   We're Here to Help
                 </h2>
-                <p className="text-muted-foreground mb-8">
-                  Kutch Jannat Tours And Travels is based at Gadhinagari Airport Road, Bhuj,
-                  serving Bhuj, Mandvi, Anjar, Gandhidham, and all of Kutch.
-                </p>
+                  All Gujarat Travels provides premium taxi services including one way, 
+                  round trips, and airport transfers across Ahmedabad, Surat, Rajkot, 
+                  Vadodara, Bhuj, and all over Gujarat.
 
                 {/* Contact Cards */}
                 <div className="space-y-4 mb-8">
@@ -53,10 +52,10 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Primary Phone</h3>
                         <a
-                          href="tel:+919726126216"
+                          href="tel:+919726126217"
                           className="text-lg font-bold text-accent hover:underline"
                         >
-                          +91 97261 26216
+                          +91 97261 26217
                         </a>
                         <p className="text-sm text-muted-foreground">
                           Available 24×7 for bookings
@@ -111,8 +110,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                        <a href="mailto:kutchjannattuor@gmail.com" className="text-lg font-bold text-primary hover:underline">
-                          kutchjannattuor@gmail.com
+                        <a href="mailto:allgujrattravels@gmail.com" className="text-lg font-bold text-primary hover:underline">
+                          allgujrattravels@gmail.com
                         </a>
                       </div>
                     </div>
@@ -161,12 +160,12 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold mb-2">Our Services</h4>
                       <ul className="text-sm text-primary-foreground/80 space-y-1">
-                        <li>• Local Rides</li>
-                        <li>• Airport Transfers</li>
-                        <li>• Outstation Trips</li>
+                        <li>• One Way Trips</li>
+                        <li>• Round Trips</li>
+                        <li>• Airport Pickup & Drop</li>
                         <li>• Family Travel</li>
-                        <li>• Premium Travel</li>
-                        <li>• Group Travel</li>
+                        <li>• Outstation Travel</li>
+                        <li>• All over Gujarat Travel</li>
                       </ul>
                     </div>
 
@@ -183,14 +182,14 @@ const Contact = () => {
                   </div>
 
                   <div className="space-y-4">
-                    <a href="tel:+919726126216" className="block">
+                    <a href="tel:+919726126217" className="block">
                       <Button
                         variant="secondary"
                         size="xl"
                         className="w-full gap-2 text-secondary-foreground"
                       >
                         <Phone className="h-5 w-5" />
-                        Call Now: +91 97261 26216
+                        Call Now: +91 97261 26217
                       </Button>
                     </a>
                     <a
@@ -215,13 +214,13 @@ const Contact = () => {
         <section className="section-padding bg-secondary">
           <div className="container-custom text-center">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Serving All of Kutch
+              Serving All of Gujarat
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-              We are based in Bhuj and provide reliable taxi and tour services throughout Kutch.
+              We provide reliable taxi and tour services throughout all major cities and districts of Gujarat.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
-              {["Bhuj", "Mandvi", "Anjar", "Gandhidham", "Nakhatrana", "Mundra", "All Kutch"].map((city) => (
+              {["Ahmedabad", "Surat", "Rajkot", "Vadodara", "Bhuj", "Gandhinagar", "All Gujarat"].map((city) => (
                 <span
                   key={city}
                   className="px-4 py-2 bg-card text-foreground rounded-full text-sm font-medium"
@@ -232,7 +231,7 @@ const Contact = () => {
             </div>
             <div className="mt-8 rounded-xl overflow-hidden border border-border">
               <iframe
-                title="Kutch Jannat Tours And Travels location"
+                title="All Gujarat Travels location"
                 src="https://www.google.com/maps?q=Gadhinagari+Airport+Road+Bhuj+Kutch+370001&output=embed"
                 className="w-full h-80"
                 loading="lazy"

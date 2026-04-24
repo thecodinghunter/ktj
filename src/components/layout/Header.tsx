@@ -26,12 +26,12 @@ const Header = () => {
           <Link to="/" className="flex items-center gap-3">
             <img 
               src="/logo.png" 
-              alt="Kutch Jannat Tours And Travels" 
+              alt="All Gujarat Travels" 
               className="w-16 h-16 md:w-20 md:h-20 object-contain"
             />
             <div>
               <h1 className="text-lg md:text-xl font-bold text-gray-900 tracking-tight">
-                KUTCH JANNAT
+                ALL GUJARAT
               </h1>
               <p className="text-xs md:text-sm text-gray-600 font-medium">Tours & Travels</p>
             </div>
@@ -56,7 +56,7 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="flex items-center gap-3">
-            <a href="tel:+919726126216" className="hidden sm:block">
+            <a href="tel:+919726126217" className="hidden sm:block">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white gap-2 shadow-md">
                 <Phone className="h-4 w-4" />
                 <span className="font-semibold">Call Now</span>
@@ -101,7 +101,7 @@ const Header = () => {
                   {link.name}
                 </Link>
               ))}
-              <a href="tel:+919726126216" className="sm:hidden px-4 py-3">
+              <a href="tel:+919726126217" className="sm:hidden px-4 py-3">
                 <Button className="w-full gap-2 bg-blue-600 hover:bg-blue-700 text-white shadow-md">
                   <Phone className="h-4 w-4" />
                   Call Now

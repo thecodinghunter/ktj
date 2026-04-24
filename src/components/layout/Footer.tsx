@@ -33,16 +33,16 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">KJ</span>
+                <span className="text-white font-bold text-xl">AG</span>
               </div>
               <div>
-                <h3 className="font-bold text-lg text-white">KUTCH JANNAT</h3>
+                <h3 className="font-bold text-lg text-white">ALL GUJARAT</h3>
                 <p className="text-sm text-gray-400">Tours & Travels</p>
               </div>
             </div>
             <p className="text-sm text-gray-300 mb-4">
-              Premium taxi and tours services based in Bhuj, serving Bhuj, Mandvi, Anjar,
-              Gandhidham, and all of Kutch.
+              Premium taxi and tours services providing one way, round trips, and airport transfers 
+              across Ahmedabad, Surat, Rajkot, Vadodara, Bhuj, and all over Gujarat.
             </p>
             <div className="flex items-center gap-2 text-sm text-gray-300">
               <Clock className="h-4 w-4" />
@@ -90,11 +90,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="tel:+919726126216"
+                  href="tel:+919726126217"
                   className="flex items-center gap-3 text-sm text-gray-300 hover:text-orange-400 transition-colors"
                 >
                   <Phone className="h-4 w-4" />
-                  +91 97261 26216
+                  +91 97261 26217
                 </a>
               </li>
               <li>
@@ -123,8 +123,8 @@ const Footer = () => {
               </li>
             </ul>
             <div className="mt-4 p-4 bg-gray-800 rounded-lg border border-gray-700">
-              <p className="text-sm font-semibold text-white">Email: kutchjannattuor@gmail.com</p>
-              <p className="text-xs text-gray-400">Instagram: @kutchjannattuor | Facebook: Kutch Jannat Tours And Travels</p>
+              <p className="text-sm font-semibold text-white">Email: allgujrattravels@gmail.com</p>
+              <p className="text-xs text-gray-400">Instagram: @allgujrattravels | Facebook: All Gujarat Tours And Travels</p>
             </div>
           </div>
         </div>
@@ -134,8 +134,8 @@ const Footer = () => {
       <div className="border-t border-gray-800">
         <div className="container-custom py-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-            <p>© {currentYear} Kutch Jannat Tours And Travels. All rights reserved.</p>
-            <p>Bhuj | Mandvi | Anjar | Gandhidham | All Kutch</p>
+            <p>© {currentYear} All Gujarat Tours And Travels. All rights reserved.</p>
+            <p>Ahmedabad | Surat | Rajkot | Vadodara | Bhuj | All over Gujarat</p>
           </div>
         </div>
       </div>

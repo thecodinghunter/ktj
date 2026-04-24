@@ -13,16 +13,16 @@ import {
 const services = [
   {
     icon: Compass,
-    title: "Kutch Tour Packages",
+    title: "Gujarat Tour Packages",
     description:
-      "Custom trip planning for White Rann, Bhuj, Mandvi, and scenic places around Kutch",
+      "Custom trip planning for major cities, heritage sites, and scenic places across Gujarat",
     link: "/booking",
   },
   {
     icon: Route,
-    title: "Gujarat Round Trip",
+    title: "All Gujarat Round Trip",
     description:
-      "Outstation rides from Kutch to major Gujarat destinations with professional drivers",
+      "Comfortable outstation rides to any destination in Gujarat with professional drivers",
     link: "/booking",
   },
   {
@@ -36,7 +36,7 @@ const services = [
     icon: PlaneTakeoff,
     title: "Pickup & Drop Service",
     description:
-      "Airport, railway station, and local transfers from Bhuj",
+      "Timely airport, railway station, and local transfers across all major Gujarat cities",
     link: "/booking",
   },
   {

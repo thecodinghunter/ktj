@@ -13,7 +13,7 @@ const benefits = [
     icon: MapPinned,
     title: "Local Expert Guide",
     description:
-      "Deep knowledge of Kutch & Gujarat with authentic local experiences",
+      "Deep knowledge of Gujarat with authentic local experiences and hidden gems",
   },
   {
     icon: Shield,
@@ -63,7 +63,7 @@ const BenefitsSection = () => {
             Why Choose Us
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Your Trusted Travel Partner in Kutch
+            Your Trusted Travel Partner in Gujarat
           </h2>
           <p className="text-muted-foreground">
             With years of local experience, we ensure every journey is safe, comfortable, and

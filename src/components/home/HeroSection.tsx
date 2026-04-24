@@ -20,24 +20,24 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/95 backdrop-blur-sm rounded-full mb-6 shadow-md">
             <MapPin className="h-4 w-4 text-blue-600" />
-            <span className="text-sm font-semibold text-gray-900">Kutch, Gujarat</span>
+            <span className="text-sm font-semibold text-gray-900">All Over Gujarat</span>
           </div>
 
           {/* Heading */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 drop-shadow-lg">
             Premium Taxi & Tours in{" "}
-            <span className="text-orange-400">Kutch</span>
+            <span className="text-orange-400">All Gujarat</span>
           </h1>
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-white/95 mb-8 leading-relaxed drop-shadow">
-            Kutch Jannat Tours And Travels provides local rides, airport transfers, outstation
-            trips, family travel, premium travel, and group travel across Bhuj and all Kutch.
+            ALL GUJARAT TRAVELS provides One Way Trips, Round Trips, Airport Pickup & Drop 
+            services, and premium group travel across all over Gujarat.
           </p>
 
           {/* Services Tagline */}
           <p className="text-sm text-white/80 mb-8 font-medium">
-            Bhuj • Mandvi • Anjar • Gandhidham • All Kutch
+            Ahmedabad • Surat • Rajkot • Vadodara • Bhuj • All Gujarat
           </p>
 
           {/* CTA Buttons */}
@@ -58,7 +58,7 @@ const HeroSection = () => {
           {/* Contact Info */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8">
             <a
-              href="tel:+919726126216"
+              href="tel:+919726126217"
               className="flex items-center gap-3 text-white hover:text-orange-400 transition-colors"
             >
               <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
@@ -66,7 +66,7 @@ const HeroSection = () => {
               </div>
               <div>
                 <p className="text-xs text-white/80 font-medium">Call Us 24×7</p>
-                <p className="font-bold text-lg">+91 97261 26216</p>
+                <p className="font-bold text-lg">+91 97261 26217</p>
               </div>
             </a>
             <div className="hidden sm:block w-px h-12 bg-white/30" />

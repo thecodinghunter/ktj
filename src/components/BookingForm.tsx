@@ -350,7 +350,7 @@ Please provide more information and confirm availability.`;
             )}
 
             <p className="text-xs text-muted-foreground text-center">
-              Or call us directly: <span className="font-semibold">+91-9726126216</span>
+              Or call us directly: <span className="font-semibold">+91-9726126217</span>
             </p>
           </div>
         </form>

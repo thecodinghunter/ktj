@@ -18,10 +18,10 @@ const Cars = () => {
   return (
     <>
       <Helmet>
-        <title>Our Cars | Kutch Jannat Tours And Travels</title>
+        <title>Our Cars | All Gujarat Travels</title>
         <meta
           name="description"
-          content="Browse our complete fleet including Rumion, Innova Crysta, Ertiga, Scorpio, Fortuner, and Force Urbania for local and outstation Kutch travel."
+          content="Browse our complete fleet including Rumion, Innova Crysta, Ertiga, Scorpio, Fortuner, and Force Urbania for local and outstation Gujarat travel."
         />
       </Helmet>
 

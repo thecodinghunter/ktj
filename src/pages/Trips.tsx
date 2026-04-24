@@ -99,10 +99,10 @@ const Trips = () => {
   return (
     <>
       <Helmet>
-        <title>Trip Packages | Maa Vankol Tours & Travels - Kutch Tours</title>
+        <title>Trip Packages | All Gujarat Travels - Gujarat Tours</title>
         <meta
           name="description"
-          content="Browse and filter our Kutch trip packages by price, duration, and activities. Book your perfect adventure today!"
+          content="Browse and filter our Gujarat trip packages by price, duration, and activities. Book your perfect adventure today!"
         />
       </Helmet>
 
@@ -112,7 +112,7 @@ const Trips = () => {
           <div className="container-custom">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Trip Packages</h1>
             <p className="text-lg text-muted-foreground max-w-3xl">
-              Discover and filter our exciting Kutch trips by price, duration, activities, and trip type.
+              Discover and filter our exciting Gujarat trips by price, duration, activities, and trip type.
             </p>
           </div>
         </section>

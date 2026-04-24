@@ -16,11 +16,11 @@ const CTASection = () => {
           {/* Left Content */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-6">
-                Ready to Ride with Kutch Jannat?
+                Ready to Ride with All Gujarat Travels?
             </h2>
             <p className="text-lg text-primary-foreground/90 mb-8">
-                Book your trip today for local rides, outstation travel, airport transfers, and
-                group journeys across Kutch.
+                Book your trip today for one way rides, outstation travel, airport transfers, and
+                all over Gujarat.
             </p>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
               {features.map((feature) => (
@@ -41,23 +41,23 @@ const CTASection = () => {
 
             <div className="space-y-4 mb-8">
               <div className="p-4 bg-secondary rounded-lg">
-                <p className="text-sm text-muted-foreground mb-1">Contact Person</p>
-                <p className="font-semibold text-foreground">Kutch Jannat Tours And Travels</p>
-                <p className="text-sm text-muted-foreground">Gadhinagari Airport Road, Bhuj</p>
+                <p className="text-sm text-muted-foreground mb-1">Contact Details</p>
+                <p className="font-semibold text-foreground">All Gujarat Travels</p>
+                <p className="text-sm text-muted-foreground">Serving Ahmedabad, Surat, Rajkot, Vadodara, Bhuj & all Gujarat</p>
               </div>
               <div className="p-4 bg-secondary rounded-lg">
                 <p className="text-sm text-muted-foreground mb-1">Phone Number</p>
                 <a
-                  href="tel:+919726126216"
+                  href="tel:+919726126217"
                   className="font-semibold text-foreground hover:text-primary transition-colors"
                 >
-                  +91 97261 26216
+                  +91 97261 26217
                 </a>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:+919726126216" className="flex-1">
+              <a href="tel:+919726126217" className="flex-1">
                 <Button variant="call" size="lg" className="w-full gap-2">
                   <Phone className="h-5 w-5" />
                   Call Now

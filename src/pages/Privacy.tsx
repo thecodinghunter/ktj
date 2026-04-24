@@ -6,10 +6,10 @@ const Privacy = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | Kutch Jannat Tours And Travels</title>
+        <title>Privacy Policy | All Gujarat Travels</title>
         <meta
           name="description"
-          content="Privacy Policy for Kutch Jannat Tours And Travels. Learn how we collect, use, and protect your personal information."
+          content="Privacy Policy for All Gujarat Travels. Learn how we collect, use, and protect your personal information."
         />
       </Helmet>
       <Layout>
@@ -33,7 +33,7 @@ const Privacy = () => {
                 <div>
                   <h2 className="text-xl font-bold text-foreground mb-4">1. Introduction</h2>
                   <p className="text-muted-foreground">
-                    Kutch Jannat Tours And Travels ("we," "our," or "us") is committed to protecting
+                    All Gujarat Travels ("we," "our," or "us") is committed to protecting
                     your privacy. This Privacy Policy explains how we collect, use, and safeguard
                     your personal information when you use our travel services or visit our
                     website.
@@ -127,11 +127,11 @@ const Privacy = () => {
                     For any privacy-related concerns or requests, please contact us:
                   </p>
                   <div className="mt-3 p-4 bg-secondary rounded-lg">
-                    <p className="font-semibold text-foreground">Kutch Jannat Tours And Travels</p>
-                    <p className="text-muted-foreground">Phone: +91 97261 26216</p>
+                    <p className="font-semibold text-foreground">All Gujarat Travels</p>
+                    <p className="text-muted-foreground">Phone: +91 97261 26217</p>
                     <p className="text-muted-foreground">WhatsApp: +91 90992 66227</p>
-                    <p className="text-muted-foreground">Email: kutchjannattuor@gmail.com</p>
-                    <p className="text-muted-foreground">Location: Kutch, Gujarat, India</p>
+                    <p className="text-muted-foreground">Email: allgujrattravels@gmail.com</p>
+                    <p className="text-muted-foreground">Location: Gujarat, India</p>
                   </div>
                 </div>
 

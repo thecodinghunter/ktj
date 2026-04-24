@@ -16,18 +16,18 @@ import {
 
 const services = [
   {
-    id: "kutch-tours",
+    id: "gujarat-tours",
     icon: Compass,
-    title: "Kutch Tour Packages",
+    title: "All Gujarat Tour Packages",
     description:
-      "Complete Kutch exploration covering all major attractions and hidden gems with expert local guidance.",
+      "Complete Gujarat exploration covering all major cities, heritage sites, and hidden gems with expert guidance.",
     features: [
-      "White Rann of Kutch visit",
-      "Bhuj city tour & heritage sites",
-      "Mandvi Beach exploration",
-      "Traditional village visits",
-      "Handicraft shopping tours",
-      "Full moon night desert experience",
+      "White Rann of Kutch & Bhuj",
+      "Ahmedabad Heritage City",
+      "Statue of Unity & Vadodara",
+      "Dwarka & Somnath Temple",
+      "Gir National Park & Junagadh",
+      "Surat & South Gujarat Tours",
     ],
     duration: "2-5 Days",
     price: "Starting from ₹5,000",
@@ -140,10 +140,10 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Our Services | Kutch Tour Packages, Cab Services | MAA VANKOL Tours & Travels</title>
+        <title>Our Services | Gujarat Tour Packages, Cab Services | All Gujarat Travels</title>
         <meta
           name="description"
-          content="Explore our complete travel services - Kutch tour packages, Gujarat round trips, one-way cab service, pickup & drop, local sightseeing, and customized tours. Book now!"
+          content="Explore our complete travel services - Gujarat tour packages, round trips, one-way cab service, pickup & drop, local sightseeing, and customized tours. Book now!"
         />
       </Helmet>
       <Layout>
@@ -154,7 +154,7 @@ const Services = () => {
               Our Services
             </h1>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-              Complete travel solutions for Kutch and Gujarat exploration. From short transfers to
+              Complete travel solutions for all over Gujarat exploration. From short transfers to
               multi-day tours, we've got you covered.
             </p>
           </div>

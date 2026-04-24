@@ -58,11 +58,11 @@ const TravelPackages = () => {
     <>
       <Helmet>
         <title>
-          Travel Packages | Maa Vankol Tours & Travels - Kutch Tours
+          Travel Packages | All Gujarat Travels - Gujarat Tours
         </title>
         <meta
           name="description"
-          content="Explore our curated travel packages for Kutch, including the Special Rann Utsav Tour. Book your adventure with Maa Vankol Tours & Travels."
+          content="Explore our curated travel packages for Gujarat, including the Special Rann Utsav and major city tours. Book your adventure with All Gujarat Travels."
         />
       </Helmet>
 
@@ -76,7 +76,7 @@ const TravelPackages = () => {
               </h1>
               <p className="text-lg text-muted-foreground mb-6">
                 Discover our carefully curated tour packages offering the best of
-                Kutch. From the magical White Rann to cultural experiences,
+                Gujarat. From heritage sites to cultural experiences,
                 choose your perfect adventure.
               </p>
             </div>
@@ -277,11 +277,11 @@ const TravelPackages = () => {
           <div className="container-custom">
             <div className="bg-gradient-to-r from-primary to-primary/80 rounded-xl p-8 md:p-12 text-primary-foreground text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Ready to Explore Kutch?
+                Ready to Explore Gujarat?
               </h2>
               <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
                 Have questions about our packages? Our travel experts are here to help
-                you plan the perfect Kutch adventure.
+                you plan the perfect Gujarat adventure.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="tel:+919265193381">
