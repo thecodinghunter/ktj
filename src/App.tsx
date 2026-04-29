@@ -11,7 +11,12 @@ import Booking from "./pages/Booking";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
-import Admin from "./pages/Admin";
+import AdminLayout from "./pages/admin/AdminLayout";
+import AdminOverview from "./pages/admin/AdminOverview";
+import AdminBookings from "./pages/admin/AdminBookings";
+import AdminFleet from "./pages/admin/AdminFleet";
+import AdminGallery from "./pages/admin/AdminGallery";
+import AdminReports from "./pages/admin/AdminReports";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
@@ -33,7 +38,13 @@ const App = () => (
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/gallery" element={<Gallery />} />
-            <Route path="/admin" element={<Admin />} />
+            <Route path="/admin" element={<AdminLayout />}>
+              <Route index element={<AdminOverview />} />
+              <Route path="bookings" element={<AdminBookings />} />
+              <Route path="fleet" element={<AdminFleet />} />
+              <Route path="gallery" element={<AdminGallery />} />
+              <Route path="reports" element={<AdminReports />} />
+            </Route>
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="*" element={<NotFound />} />

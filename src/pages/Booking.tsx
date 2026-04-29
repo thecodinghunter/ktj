@@ -40,7 +40,7 @@ const Booking = () => {
 
   const openWhatsApp = () => {
     const msg = [
-      "New Booking Request - All Gujarat Travels",
+      "New Booking Request - Kutch Jannat Tours and Travels",
       `Name: ${formData.name}`,
       `Phone: ${formData.phone}`,
       `Pickup: ${formData.pickup}`,
@@ -109,10 +109,10 @@ const Booking = () => {
   return (
     <>
       <Helmet>
-        <title>Booking | All Gujarat Travels</title>
+        <title>Booking | Kutch Jannat Tours and Travels</title>
         <meta
           name="description"
-          content="Book one way trips, airport transfers, and outstation travel with All Gujarat Travels."
+          content="Book one way trips, airport transfers, and outstation travel with Kutch Jannat Tours and Travels."
         />
       </Helmet>
 

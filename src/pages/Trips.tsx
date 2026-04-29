@@ -99,7 +99,7 @@ const Trips = () => {
   return (
     <>
       <Helmet>
-        <title>Trip Packages | All Gujarat Travels - Gujarat Tours</title>
+        <title>Trip Packages | Kutch Jannat Tours and Travels - Gujarat Tours</title>
         <meta
           name="description"
           content="Browse and filter our Gujarat trip packages by price, duration, and activities. Book your perfect adventure today!"

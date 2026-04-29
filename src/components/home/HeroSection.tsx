@@ -25,13 +25,13 @@ const HeroSection = () => {
 
           {/* Heading */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 drop-shadow-lg">
-            Premium Taxi & Tours in{" "}
+            Kutch Jannat Tours & Travels in{" "}
             <span className="text-orange-400">All Gujarat</span>
           </h1>
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-white/95 mb-8 leading-relaxed drop-shadow">
-            ALL GUJARAT TRAVELS provides One Way Trips, Round Trips, Airport Pickup & Drop 
+            KUTCH JANNAT TOURS AND TRAVELS provides One Way Trips, Round Trips, Airport Pickup & Drop 
             services, and premium group travel across all over Gujarat.
           </p>
 

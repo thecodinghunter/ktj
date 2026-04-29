@@ -11,10 +11,10 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>All Gujarat Travels | Premium Taxi & Tours in Gujarat</title>
+        <title>Kutch Jannat Tours and Travels | Premium Taxi & Tours in Gujarat</title>
         <meta
           name="description"
-          content="Book one way trips, round trips, airport transfers, and outstation travel across all over Gujarat with All Gujarat Travels."
+          content="Book one way trips, round trips, airport transfers, and outstation travel across all over Gujarat with Kutch Jannat Tours and Travels."
         />
         <meta
           name="keywords"
@@ -25,7 +25,7 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "TravelAgency",
-            name: "All Gujarat Travels",
+            name: "Kutch Jannat Tours and Travels",
             description:
               "Premium taxi and tours service providing one way, round trips, and airport transfers across all over Gujarat.",
             telephone: "+91-9726126217",

@@ -16,7 +16,7 @@ const RannUtsavItinerary = () => {
   return (
     <>
       <Helmet>
-        <title>Rann Utsav Tour 2N/3D | All Gujarat Travels</title>
+        <title>Rann Utsav Tour 2N/3D | Kutch Jannat Tours and Travels</title>
         <meta
           name="description"
           content="Special Rann Utsav Tour Of Gujarat. 2 nights & 3 days all-inclusive package starting at ₹9,500 per person with Gujarat-wide pickup options."
@@ -289,7 +289,7 @@ const RannUtsavItinerary = () => {
                       <div className="mb-3 bg-orange-50 border-2 border-orange-200 rounded-lg p-4 text-sm space-y-2 hover:shadow-md transition-shadow">
                         <p className="font-bold text-orange-900 text-base">🎨 Choice 2</p>
                         <p className="text-gray-700">Bhujodi Craft Village (shopping & local crafts exploration) → Vande Mataram Museum (4D laser show about India's freedom) → Hira-Laxmi Park</p>
-                        <p className="text-xs text-gray-600 italic">Group must select a single choice; final decision may be taken by All Gujarat Travels based on time/conditions.</p>
+                        <p className="text-xs text-gray-600 italic">Group must select a single choice; final decision may be taken by Kutch Jannat Tours and Travels based on time/conditions.</p>
                       </div>
                       <p className="text-gray-700 mb-3">
                         After sightseeing, proceed to drop at Bhuj station/airport/bus stand as per schedule. Say goodbye and return home with sweet memories!
@@ -516,7 +516,7 @@ const RannUtsavItinerary = () => {
                           </li>
                         </ul>
                         <p className="text-xs text-gray-600 mt-3 italic bg-yellow-50 p-2 rounded border border-yellow-200">
-                          Cheque/DD in favor of "All Gujarat Travels"
+                          Cheque/DD in favor of "Kutch Jannat Tours and Travels"
                         </p>
                       </div>
                     </CardContent>

@@ -18,7 +18,7 @@ const Cars = () => {
   return (
     <>
       <Helmet>
-        <title>Our Cars | All Gujarat Travels</title>
+        <title>Our Cars | Kutch Jannat Tours and Travels</title>
         <meta
           name="description"
           content="Browse our complete fleet including Rumion, Innova Crysta, Ertiga, Scorpio, Fortuner, and Force Urbania for local and outstation Gujarat travel."

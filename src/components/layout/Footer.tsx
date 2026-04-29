@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, MapPin, MessageCircle, Clock } from "lucide-react";
+import { Phone, MapPin, MessageCircle, Clock, Instagram, Facebook } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -33,10 +33,10 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">AG</span>
+                <span className="text-white font-bold text-xl">KJ</span>
               </div>
               <div>
-                <h3 className="font-bold text-lg text-white">ALL GUJARAT</h3>
+                <h3 className="font-bold text-lg text-white">KUTCH JANNAT</h3>
                 <p className="text-sm text-gray-400">Tours & Travels</p>
               </div>
             </div>
@@ -123,8 +123,17 @@ const Footer = () => {
               </li>
             </ul>
             <div className="mt-4 p-4 bg-gray-800 rounded-lg border border-gray-700">
-              <p className="text-sm font-semibold text-white">Email: allgujrattravels@gmail.com</p>
-              <p className="text-xs text-gray-400">Instagram: @allgujrattravels | Facebook: All Gujarat Tours And Travels</p>
+              <p className="text-sm font-semibold text-white mb-2">Email: kutchjannattours@gmail.com</p>
+              <div className="flex items-center gap-4 pt-1">
+                <a href="https://instagram.com/kutchjannattours" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-500 transition-colors" title="Instagram">
+                  <Instagram className="h-5 w-5" />
+                  <span className="sr-only">Instagram</span>
+                </a>
+                <a href="https://facebook.com/KutchJannatToursAndTravels" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-500 transition-colors" title="Facebook">
+                  <Facebook className="h-5 w-5" />
+                  <span className="sr-only">Facebook</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -134,7 +143,7 @@ const Footer = () => {
       <div className="border-t border-gray-800">
         <div className="container-custom py-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-            <p>© {currentYear} All Gujarat Tours And Travels. All rights reserved.</p>
+            <p>© {currentYear} Kutch Jannat Tours And Travels. All rights reserved.</p>
             <p>Ahmedabad | Surat | Rajkot | Vadodara | Bhuj | All over Gujarat</p>
           </div>
         </div>

@@ -49,10 +49,10 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us | All Gujarat Travels</title>
+        <title>About Us | Kutch Jannat Tours and Travels</title>
         <meta
           name="description"
-          content="Learn about All Gujarat Travels, a premium taxi and tours service providing one way and round trips across all over Gujarat."
+          content="Learn about Kutch Jannat Tours and Travels, a premium taxi and tours service providing one way and round trips across all over Gujarat."
         />
       </Helmet>
       <Layout>
@@ -81,7 +81,7 @@ const About = () => {
                 </h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    All Gujarat Travels was born from a passion for travel and a desire to
+                    Kutch Jannat Tours and Travels was born from a passion for travel and a desire to
                     share the beauty of Gujarat with travelers from around the world. With roots
                     in this vibrant state, we understand every corner, every tradition, and
                     every hidden gem that makes Gujarat special.
@@ -105,7 +105,7 @@ const About = () => {
                   <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                     <span className="text-3xl font-bold text-primary-foreground">AG</span>
                   </div>
-                  <h3 className="text-xl font-bold text-foreground">All Gujarat Travels</h3>
+                  <h3 className="text-xl font-bold text-foreground">Kutch Jannat Tours and Travels</h3>
                   <p className="text-muted-foreground">Premium Taxi and Tours Service</p>
                 </div>
                 <div className="space-y-4">

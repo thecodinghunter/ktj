@@ -26,12 +26,12 @@ const Header = () => {
           <Link to="/" className="flex items-center gap-3">
             <img 
               src="/logo.png" 
-              alt="All Gujarat Travels" 
+              alt="Kutch Jannat Tours and Travels" 
               className="w-16 h-16 md:w-20 md:h-20 object-contain"
             />
             <div>
               <h1 className="text-lg md:text-xl font-bold text-gray-900 tracking-tight">
-                ALL GUJARAT
+                KUTCH JANNAT
               </h1>
               <p className="text-xs md:text-sm text-gray-600 font-medium">Tours & Travels</p>
             </div>

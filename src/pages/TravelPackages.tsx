@@ -58,11 +58,11 @@ const TravelPackages = () => {
     <>
       <Helmet>
         <title>
-          Travel Packages | All Gujarat Travels - Gujarat Tours
+          Travel Packages | Kutch Jannat Tours and Travels - Gujarat Tours
         </title>
         <meta
           name="description"
-          content="Explore our curated travel packages for Gujarat, including the Special Rann Utsav and major city tours. Book your adventure with All Gujarat Travels."
+          content="Explore our curated travel packages for Gujarat, including the Special Rann Utsav and major city tours. Book your adventure with Kutch Jannat Tours and Travels."
         />
       </Helmet>
 

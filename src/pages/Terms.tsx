@@ -6,10 +6,10 @@ const Terms = () => {
   return (
     <>
       <Helmet>
-        <title>Terms & Conditions | All Gujarat Travels</title>
+        <title>Terms & Conditions | Kutch Jannat Tours and Travels</title>
         <meta
           name="description"
-          content="Terms and Conditions for All Gujarat Travels. Read our booking policies, cancellation terms, and service conditions."
+          content="Terms and Conditions for Kutch Jannat Tours and Travels. Read our booking policies, cancellation terms, and service conditions."
         />
       </Helmet>
       <Layout>
@@ -62,7 +62,7 @@ const Terms = () => {
                       <ul className="list-disc pl-6 mt-2 space-y-1">
                         <li><strong>Online:</strong> UPI & Net Banking</li>
                         <li><strong>Offline:</strong> Cheque, Demand Draft, NEFT, RTGS, IMPS</li>
-                        <li>Cheque/Draft should be in favor of "All Gujarat Travels"</li>
+                        <li>Cheque/Draft should be in favor of "Kutch Jannat Tours and Travels"</li>
                       </ul>
                     </li>
                     <li>
@@ -147,7 +147,7 @@ const Terms = () => {
                   </h2>
                   <ul className="list-disc pl-6 text-muted-foreground space-y-2">
                     <li>
-                      All Gujarat Travels is not responsible for delays or service
+                      Kutch Jannat Tours and Travels is not responsible for delays or service
                       disruptions caused by:
                     </li>
                     <ul className="list-disc pl-6 mt-2 space-y-1">
@@ -217,7 +217,7 @@ const Terms = () => {
                     For any questions regarding these terms, please contact:
                   </p>
                   <div className="p-4 bg-secondary rounded-lg">
-                    <p className="font-semibold text-foreground">All Gujarat Travels</p>
+                    <p className="font-semibold text-foreground">Kutch Jannat Tours and Travels</p>
                     <p className="text-muted-foreground">Phone: +91 97261 26217</p>
                     <p className="text-muted-foreground">WhatsApp: +91 90992 66227</p>
                     <p className="text-muted-foreground">Location: Ahmedabad/Bhuj, Gujarat, India</p>

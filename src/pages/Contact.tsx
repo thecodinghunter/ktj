@@ -7,10 +7,10 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us | All Gujarat Travels</title>
+        <title>Contact Us | Kutch Jannat Tours and Travels</title>
         <meta
           name="description"
-          content="Contact All Gujarat Travels for one way trips, airport transfers, round trips, and outstation travel across all of Gujarat."
+          content="Contact Kutch Jannat Tours and Travels for one way trips, airport transfers, round trips, and outstation travel across all of Gujarat."
         />
       </Helmet>
       <Layout>
@@ -38,7 +38,7 @@ const Contact = () => {
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
                   We're Here to Help
                 </h2>
-                  All Gujarat Travels provides premium taxi services including one way, 
+                  Kutch Jannat Tours and Travels provides premium taxi services including one way, 
                   round trips, and airport transfers across Ahmedabad, Surat, Rajkot, 
                   Vadodara, Bhuj, and all over Gujarat.
 
@@ -231,7 +231,7 @@ const Contact = () => {
             </div>
             <div className="mt-8 rounded-xl overflow-hidden border border-border">
               <iframe
-                title="All Gujarat Travels location"
+                title="Kutch Jannat Tours and Travels location"
                 src="https://www.google.com/maps?q=Gadhinagari+Airport+Road+Bhuj+Kutch+370001&output=embed"
                 className="w-full h-80"
                 loading="lazy"

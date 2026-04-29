@@ -140,7 +140,7 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Our Services | Gujarat Tour Packages, Cab Services | All Gujarat Travels</title>
+        <title>Our Services | Gujarat Tour Packages, Cab Services | Kutch Jannat Tours and Travels</title>
         <meta
           name="description"
           content="Explore our complete travel services - Gujarat tour packages, round trips, one-way cab service, pickup & drop, local sightseeing, and customized tours. Book now!"

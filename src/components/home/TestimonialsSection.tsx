@@ -4,7 +4,7 @@ const reviews = [
   {
     name: "Rajeshbhai Patel",
     location: "Ahmedabad",
-    text: "All Gujarat Travels provides excellent one-way service. I booked a cab from Ahmedabad to Bhuj, and the experience was seamless. Professional driver and very clean car.",
+    text: "Kutch Jannat Tours and Travels provides excellent one-way service. I booked a cab from Ahmedabad to Bhuj, and the experience was seamless. Professional driver and very clean car.",
     rating: 5,
   },
   {

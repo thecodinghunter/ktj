@@ -16,7 +16,7 @@ const CTASection = () => {
           {/* Left Content */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-6">
-                Ready to Ride with All Gujarat Travels?
+                Ready to Ride with Kutch Jannat Tours and Travels?
             </h2>
             <p className="text-lg text-primary-foreground/90 mb-8">
                 Book your trip today for one way rides, outstation travel, airport transfers, and
@@ -42,7 +42,7 @@ const CTASection = () => {
             <div className="space-y-4 mb-8">
               <div className="p-4 bg-secondary rounded-lg">
                 <p className="text-sm text-muted-foreground mb-1">Contact Details</p>
-                <p className="font-semibold text-foreground">All Gujarat Travels</p>
+                <p className="font-semibold text-foreground">Kutch Jannat Tours and Travels</p>
                 <p className="text-sm text-muted-foreground">Serving Ahmedabad, Surat, Rajkot, Vadodara, Bhuj & all Gujarat</p>
               </div>
               <div className="p-4 bg-secondary rounded-lg">
