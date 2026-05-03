@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { isSupabaseConfigured, supabase } from "@/lib/supabase";
+import { cars as localCars } from "@/data/cars";
 
 type CarRecord = {
   id: string;
@@ -45,7 +46,22 @@ export default function AdminFleet() {
       if (!supabase) return [] as CarRecord[];
       const { data, error } = await supabase.from("cars").select("*").order("created_at", { ascending: false });
       if (error) throw error;
-      return (data ?? []) as CarRecord[];
+      
+      const supabaseCars = (data ?? []) as CarRecord[];
+      const mergedMap = new Map<string, CarRecord>();
+      
+      localCars.forEach((c) => {
+        mergedMap.set(c.id, {
+          ...c,
+          features: c.features ?? [],
+        } as CarRecord);
+      });
+      
+      supabaseCars.forEach((c) => {
+        mergedMap.set(c.id, c);
+      });
+      
+      return Array.from(mergedMap.values());
     },
     enabled: isSupabaseConfigured,
   });
@@ -101,9 +117,17 @@ export default function AdminFleet() {
     if (!payload.id || !payload.name || !payload.category || !payload.image || !payload.description) return;
 
     if (carEditId) {
-      await supabase.from("cars").update(payload).eq("id", carEditId);
+      const { error } = await supabase.from("cars").upsert(payload);
+      if (error) {
+        alert(`Failed to update car: ${error.message}`);
+        return;
+      }
     } else {
-      await supabase.from("cars").insert(payload);
+      const { error } = await supabase.from("cars").insert(payload);
+      if (error) {
+        alert(`Failed to add car: ${error.message}`);
+        return;
+      }
     }
 
     resetCarForm();
@@ -128,7 +152,11 @@ export default function AdminFleet() {
   const deleteCar = async (id: string) => {
     if (!supabase) return;
     if(!confirm("Are you sure you want to delete this car?")) return;
-    await supabase.from("cars").delete().eq("id", id);
+    const { error } = await supabase.from("cars").delete().eq("id", id);
+    if (error) {
+      alert(`Failed to delete car: ${error.message}`);
+      return;
+    }
     await queryClient.invalidateQueries({ queryKey: ["admin-cars"] });
     await queryClient.invalidateQueries({ queryKey: ["cars-public"] });
   };
@@ -187,35 +215,55 @@ export default function AdminFleet() {
         </div>
 
         {(carsQuery.data ?? []).length > 0 && (
-          <div className="overflow-x-auto">
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead>Image</TableHead>
-                  <TableHead>Name</TableHead>
-                  <TableHead>Category</TableHead>
-                  <TableHead className="text-right">Actions</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {(carsQuery.data ?? []).map((car) => (
-                  <TableRow key={car.id}>
-                    <TableCell>
-                      <img src={car.image} alt={car.name} className="h-12 w-20 object-cover rounded-md shadow-sm border" />
-                    </TableCell>
-                    <TableCell className="font-medium">{car.name}</TableCell>
-                    <TableCell className="text-muted-foreground">{car.category}</TableCell>
-                    <TableCell className="text-right">
-                      <div className="flex justify-end gap-2">
-                        <Button size="sm" variant="outline" onClick={() => editCar(car)}>Edit</Button>
-                        <Button size="sm" variant="destructive" onClick={() => deleteCar(car.id)}>Delete</Button>
-                      </div>
-                    </TableCell>
+          <>
+            {/* Mobile card list */}
+            <div className="space-y-3 md:hidden">
+              {(carsQuery.data ?? []).map((car) => (
+                <div key={car.id} className="flex items-center gap-3 rounded-xl border border-border bg-muted/30 p-3">
+                  <img src={car.image} alt={car.name} className="h-14 w-20 object-cover rounded-lg border flex-shrink-0" />
+                  <div className="flex-1 min-w-0">
+                    <p className="font-semibold text-sm text-foreground truncate">{car.name}</p>
+                    <p className="text-xs text-muted-foreground">{car.category} · {car.passengers} pax</p>
+                  </div>
+                  <div className="flex flex-col gap-1.5 shrink-0">
+                    <Button size="sm" variant="outline" onClick={() => editCar(car)} className="h-7 text-xs px-2">Edit</Button>
+                    <Button size="sm" variant="destructive" onClick={() => deleteCar(car.id)} className="h-7 text-xs px-2">Delete</Button>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Desktop table */}
+            <div className="hidden md:block overflow-x-auto">
+              <Table>
+                <TableHeader>
+                  <TableRow>
+                    <TableHead>Image</TableHead>
+                    <TableHead>Name</TableHead>
+                    <TableHead>Category</TableHead>
+                    <TableHead className="text-right">Actions</TableHead>
                   </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </div>
+                </TableHeader>
+                <TableBody>
+                  {(carsQuery.data ?? []).map((car) => (
+                    <TableRow key={car.id}>
+                      <TableCell>
+                        <img src={car.image} alt={car.name} className="h-12 w-20 object-cover rounded-md shadow-sm border" />
+                      </TableCell>
+                      <TableCell className="font-medium">{car.name}</TableCell>
+                      <TableCell className="text-muted-foreground">{car.category}</TableCell>
+                      <TableCell className="text-right">
+                        <div className="flex justify-end gap-2">
+                          <Button size="sm" variant="outline" onClick={() => editCar(car)}>Edit</Button>
+                          <Button size="sm" variant="destructive" onClick={() => deleteCar(car.id)}>Delete</Button>
+                        </div>
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </div>
+          </>
         )}
       </CardContent>
     </Card>

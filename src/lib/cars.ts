@@ -36,9 +36,14 @@ export async function fetchCarsForPublic(): Promise<Car[]> {
     .select("id,name,category,passengers,luggage,ac,image,description,features,created_at")
     .order("created_at", { ascending: true });
 
-  if (error || !data || data.length === 0) {
-    return localCars;
-  }
+  const supabaseCars = error || !data ? [] : (data as CarDbRecord[]).map(mapCar);
 
-  return (data as CarDbRecord[]).map(mapCar);
+  // Merge local cars with supabase cars
+  // Supabase cars override local cars if they have the same ID
+  const mergedMap = new Map<string, Car>();
+  
+  localCars.forEach((c) => mergedMap.set(c.id, c));
+  supabaseCars.forEach((c) => mergedMap.set(c.id, c));
+
+  return Array.from(mergedMap.values());
 }
