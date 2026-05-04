@@ -125,7 +125,7 @@ const Footer = () => {
             <div className="mt-4 p-4 bg-gray-800 rounded-lg border border-gray-700">
               <p className="text-sm font-semibold text-white mb-2">Email: kutchjannattours@gmail.com</p>
               <div className="flex items-center gap-4 pt-1">
-                <a href="https://instagram.com/kutchjannattours" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-500 transition-colors" title="Instagram">
+                <a href="https://www.instagram.com/kutchjannattuor?igsh=cWNoY3Rvdjd2b3Np" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-500 transition-colors" title="Instagram">
                   <Instagram className="h-5 w-5" />
                   <span className="sr-only">Instagram</span>
                 </a>
