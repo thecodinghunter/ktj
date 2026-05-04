@@ -133,16 +133,7 @@ const Footer = () => {
                   <Facebook className="h-5 w-5" />
                   <span className="sr-only">Facebook</span>
                 </a>
-                <a 
-  href="https://youtu.be/W_fDuA1hVYc?si=ggI__YXYJ4glws4x" 
-  target="_blank" 
-  rel="noopener noreferrer" 
-  className="text-gray-400 hover:text-red-500 transition-colors" 
-  title="YouTube"
->
-  <Youtube className="h-5 w-5" />
-  <span className="sr-only">YouTube</span>
-</a>
+              
               </div>
             </div>
           </div>
