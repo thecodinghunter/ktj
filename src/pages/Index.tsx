@@ -18,7 +18,7 @@ const Index = () => {
         />
         <meta
           name="keywords"
-          content="Gujarat taxi service, one way cab Gujarat, round trip taxi, airport pickup drop Gujarat, outstation cab Ahmedabad, Surat taxi service"
+          content="Bhuj Taxi Service, Bhuj Cab Booking, Kutch Tours and Travels, Kutch Taxi Service, Bhuj to Ahmedabad Cab, Bhuj to Rajkot Taxi, Airport Taxi Bhuj, One Way Taxi Gujarat, Gujarat Tour Packages, Outstation Cab Service, Taxi Service in Kutch, Bhuj Airport Transfer, Rajkot to Bhuj Cab, Ahmedabad to Bhuj Taxi, Best Taxi Service in Gujarat, Rann of Kutch tour packages, Bhuj to Rann Utsav taxi, Kutch Desert tour, Bhuj sightseeing taxi, Ahmedabad to Bhuj one way cab, Rajkot to Bhuj one way taxi, Reliable taxi Bhuj, Affordable cab service Kutch, Kutch holiday packages, Dwarka Somnath tour from Bhuj, Gujarat desert festival taxi, Private car rental Bhuj, Chauffeured car service Gujarat, Budget taxi Bhuj, Luxury car rental Kutch, Kutch Jannat Tours"
         />
         <link rel="canonical" href="https://kutchjannattours.com/" />
         <script type="application/ld+json">

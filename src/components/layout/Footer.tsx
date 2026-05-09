@@ -140,6 +140,29 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* SEO Keywords Section */}
+      <div className="border-t border-gray-800 bg-gray-900/50">
+        <div className="container-custom py-8">
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-gray-500">
+            {[
+              "Bhuj Taxi Service", "Bhuj Cab Booking", "Kutch Tours and Travels", "Kutch Taxi Service",
+              "Bhuj to Ahmedabad Cab", "Bhuj to Rajkot Taxi", "Airport Taxi Bhuj", "One Way Taxi Gujarat",
+              "Gujarat Tour Packages", "Outstation Cab Service", "Taxi Service in Kutch", "Bhuj Airport Transfer",
+              "Rajkot to Bhuj Cab", "Ahmedabad to Bhuj Taxi", "Best Taxi Service in Gujarat",
+              "Rann of Kutch tour packages", "Bhuj to Rann Utsav taxi", "Kutch Desert tour", "Bhuj sightseeing taxi",
+              "Ahmedabad to Bhuj one way cab", "Rajkot to Bhuj one way taxi", "Reliable taxi Bhuj",
+              "Affordable cab service Kutch", "Kutch holiday packages", "Dwarka Somnath tour from Bhuj",
+              "Gujarat desert festival taxi", "Private car rental Bhuj", "Chauffeured car service Gujarat",
+              "Budget taxi Bhuj", "Luxury car rental Kutch", "Kutch Jannat Tours"
+            ].map((keyword, index) => (
+              <span key={keyword} className="hover:text-gray-300 transition-colors cursor-default">
+                {keyword}{index < 30 ? " |" : ""}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/* Bottom Bar */}
       <div className="border-t border-gray-800">
         <div className="container-custom py-4">

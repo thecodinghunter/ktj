@@ -23,6 +23,10 @@ const Cars = () => {
           name="description"
           content="Browse our complete fleet including Rumion, Innova Crysta, Ertiga, Scorpio, Fortuner, and Force Urbania for local and outstation Gujarat travel."
         />
+        <meta
+          name="keywords"
+          content="Car rental Bhuj, hire Innova Crysta Bhuj, Ertiga taxi Kutch, Scorpio for rent Gujarat, Fortuner rental Kutch, Force Urbania booking Bhuj, luxury car rental Kutch, family car rental Gujarat, outstation taxi fleet"
+        />
       </Helmet>
 
       <Layout>

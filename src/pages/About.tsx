@@ -54,6 +54,10 @@ const About = () => {
           name="description"
           content="Learn about Kutch Jannat Tours and Travels, a premium taxi and tours service providing one way and round trips across all over Gujarat."
         />
+        <meta
+          name="keywords"
+          content="About Kutch Jannat Tours, best travel agency Kutch, reliable taxi service Gujarat, Kutch tour operator, Gujarat travel partner, professional drivers Kutch, travel history Gujarat"
+        />
       </Helmet>
       <Layout>
         {/* Hero Section */}

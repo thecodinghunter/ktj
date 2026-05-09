@@ -12,6 +12,10 @@ const Contact = () => {
           name="description"
           content="Contact Kutch Jannat Tours and Travels for one way trips, airport transfers, round trips, and outstation travel across all of Gujarat."
         />
+        <meta
+          name="keywords"
+          content="Contact Bhuj taxi, book cab Kutch, Bhuj airport transfer booking, WhatsApp taxi booking Gujarat, call taxi Bhuj, Kutch travel inquiry, taxi fare Gujarat"
+        />
       </Helmet>
       <Layout>
         {/* Hero Section */}
