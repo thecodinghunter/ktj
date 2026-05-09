@@ -117,13 +117,19 @@ const Footer = () => {
                   WhatsApp Us
                 </a>
               </li>
-              <li className="flex items-start gap-3 text-sm text-gray-300">
-                <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>Gadhinagari Airport Road, Bhuj, Kutch 370001</span>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/nrYHdWXWyZALimyVA?g_st=ac"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 text-sm text-gray-300 hover:text-orange-400 transition-colors"
+                >
+                  <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
+                  <span>6/303, Surpat Gate Rd, Gandhi Nagar, Bhuj, Gujarat 370001</span>
+                </a>
               </li>
             </ul>
             <div className="mt-4 p-4 bg-gray-800 rounded-lg border border-gray-700">
-              <p className="text-sm font-semibold text-white mb-2">Email: kutchjannattours@gmail.com</p>
               <div className="flex items-center gap-4 pt-1">
                 <a href="https://www.instagram.com/kutchjannattuor?igsh=cWNoY3Rvdjd2b3Np" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-500 transition-colors" title="Instagram">
                   <Instagram className="h-5 w-5" />

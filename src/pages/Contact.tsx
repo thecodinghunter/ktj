@@ -107,19 +107,7 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div className="p-6 bg-secondary rounded-xl">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-primary/70 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <Mail className="h-6 w-6 text-primary-foreground" />
-                      </div>
-                      <div>
-                        <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                        <a href="mailto:allgujrattravels@gmail.com" className="text-lg font-bold text-primary hover:underline">
-                          allgujrattravels@gmail.com
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+
 
                   <div className="p-6 bg-secondary rounded-xl">
                     <div className="flex items-start gap-4">
@@ -128,8 +116,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Location</h3>
-                        <p className="text-lg font-bold text-foreground">Gadhinagari Airport Road</p>
-                        <p className="text-sm text-muted-foreground">Bhuj, Kutch 370001</p>
+                        <p className="text-lg font-bold text-foreground">6/303, Surpat Gate Rd</p>
+                        <p className="text-sm text-muted-foreground">Gandhi Nagar, Bhuj, Gujarat 370001</p>
                       </div>
                     </div>
                   </div>
@@ -236,9 +224,12 @@ const Contact = () => {
             <div className="mt-8 rounded-xl overflow-hidden border border-border">
               <iframe
                 title="Kutch Jannat Tours and Travels location"
-                src="https://www.google.com/maps?q=Gadhinagari+Airport+Road+Bhuj+Kutch+370001&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.2801204281595!2d69.6742426!3d23.2692692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3950e20938739071%3A0x94d5c3a351d20ae5!2s6%2F303%2C%20Surpat%20Gate%20Rd%2C%20Gandhi%20Nagar%2C%20Bhuj%2C%20Gujarat%20370001!5e0!3m2!1sen!2sin!4v1778331843040!5m2!1sen!2sin"
                 className="w-full h-80"
+                style={{ border: 0 }}
+                allowFullScreen={true}
                 loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
           </div>

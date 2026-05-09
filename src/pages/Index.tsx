@@ -31,7 +31,7 @@ const Index = () => {
             telephone: "+91-9726126217",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Gadhinagari Airport Road",
+              streetAddress: "6/303, Surpat Gate Rd, Gandhi Nagar",
               postalCode: "370001",
               addressLocality: "Bhuj",
               addressRegion: "Gujarat",
