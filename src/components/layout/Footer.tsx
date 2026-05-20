@@ -22,6 +22,7 @@ const Footer = () => {
     { name: "Contact", path: "/contact" },
     { name: "Privacy Policy", path: "/privacy" },
     { name: "Terms & Conditions", path: "/terms" },
+    { name: "Sitemap", path: "/sitemap.xml", isExternal: true },
   ];
 
   return (
@@ -73,12 +74,23 @@ const Footer = () => {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.path}>
-                  <Link
-                    to={link.path}
-                    className="text-sm text-gray-300 hover:text-orange-400 transition-colors"
-                  >
-                    {link.name}
-                  </Link>
+                  {link.isExternal ? (
+                    <a
+                      href={link.path}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-300 hover:text-orange-400 transition-colors"
+                    >
+                      {link.name}
+                    </a>
+                  ) : (
+                    <Link
+                      to={link.path}
+                      className="text-sm text-gray-300 hover:text-orange-400 transition-colors"
+                    >
+                      {link.name}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
